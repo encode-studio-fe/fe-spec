@@ -4,13 +4,13 @@
 
 ## :mountain: 能力支持
 
-### 1. 完善的规范生态
+### 1. 全面的前端生态
+
+支持前端全部生态，无需关注环境，支持直接使用
+
+### 2. 完善的规范配件
 
 支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级
-
-### 2. 支持 `Typescript`
-
-提供完整的类型注释，帮助您从 0~1 掌握完整的前端规范化
 
 ### 3. 完整的测试用例
 
@@ -69,8 +69,8 @@ pnpm run changelog
 
 ## :email: 联系
 
--   **印客学院官网**: <http://encodestudio.cn>
--   **前端编码规范工程化** <https://encode-studio-fe.github.io/fe-spec/>
--   **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
+- **印客学院官网**: <http://encodestudio.cn>
+- **前端编码规范工程化** <https://encode-studio-fe.github.io/fe-spec/>
+- **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
 
 </br>

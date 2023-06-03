@@ -6,12 +6,12 @@ actionText: 立刻进入 →
 actionLink: /coding/html.md
 
 features:
-    - title: 完善的规范生态
-      details: 支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级
-    - title: 支持 Typescript
-      details: 提供完整的类型注释，帮助您从 0~1 掌握完整的前端规范化
-    - title: 完整的测试用例
-      details: 配套完整的测试用例，帮助您提升项目健壮性
+  - title: 全面的前端生态
+    details: 支持前端全部生态，无需关注环境，支持直接使用
+  - title: 完善的规范配件
+    details: 支持对全部前端配置实现一键接入、一键扫描、一键修复、一键升级
+  - title: 完整的测试用例
+    details: 配套完整的测试用例，帮助您提升项目健壮性
 ---
 
 ## :star: 设计目的
@@ -38,12 +38,12 @@ features:
 
 我们引入了多个业界流行的 `Linter` 作为规约文档的配套工具，并根据规约内容定制了对应的规则包，它们包括：
 
-| 规约 | Lint 工具 | NPM包 |
-| -------- | -------- | -------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范  <br/> Node 编码规范   |  [ESLint](https://eslint.org/)   | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config) |
-| CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config) |
-| Git 规范    |  [commitlint](https://commitlint.js.org/#/)  | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config) |
-| 文档规范     |  [markdownlint](https://github.com/DavidAnson/markdownlint)  | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
+| 规约                                                              | Lint 工具                                                  | NPM 包                                                                                       |
+| ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
+| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
+| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
+| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
 
 [encode-fe-spec-cli](https://www.npmjs.com/package/encode-fe-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 
@@ -53,7 +53,7 @@ features:
 
 ## :email: 联系
 
--   **印客学院官网**: <http://encodestudio.cn>
--   **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
+- **印客学院官网**: <http://encodestudio.cn>
+- **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
 
 </br>
