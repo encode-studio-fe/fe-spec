@@ -3,7 +3,7 @@ home: true
 heroText: 印客学院
 tagline: 前端编码规范工程化
 actionText: 立刻进入 →
-actionLink: /npm/eslint.md
+actionLink: /coding/html.md
 
 features:
   - title: 全面的前端生态

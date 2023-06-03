@@ -13,15 +13,6 @@ export default defineConfig4CustomTheme({
     nav: [
       { text: '首页', link: '/index.md' },
       {
-        text: 'NPM包',
-        items: [
-          { text: 'encode-fe-eslint-config', link: '/npm/eslint.md' },
-          { text: 'encode-fe-stylelint-config', link: '/npm/stylelint.md' },
-          { text: 'encode-fe-commitlint-config', link: '/npm/commitlint.md' },
-          { text: 'encode-fe-markdownlint-config', link: '/npm/markdownlint.md' },
-        ],
-      },
-      {
         text: '编码规范',
         items: [
           { text: 'HTML 编码规范', link: '/coding/html.md' },
@@ -39,17 +30,17 @@ export default defineConfig4CustomTheme({
           { text: 'CHANGELOG 规范', link: '/engineering/changelog.md' },
         ],
       },
-    ],
-    sidebar: [
       {
-        title: 'NPM包',
-        children: [
-          { title: 'encode-fe-eslint-config', path: '/npm/eslint.md' },
-          { title: 'encode-fe-stylelint-config', path: '/npm/stylelint.md' },
-          { title: 'encode-fe-commitlint-config', path: '/npm/commitlint.md' },
-          { title: 'encode-fe-markdownlint-config', path: '/npm/markdownlint.md' },
+        text: 'NPM包',
+        items: [
+          { text: 'encode-fe-eslint-config', link: '/npm/eslint.md' },
+          { text: 'encode-fe-stylelint-config', link: '/npm/stylelint.md' },
+          { text: 'encode-fe-commitlint-config', link: '/npm/commitlint.md' },
+          { text: 'encode-fe-markdownlint-config', link: '/npm/markdownlint.md' },
         ],
       },
+    ],
+    sidebar: [
       {
         title: '编码规范',
         children: [
@@ -90,6 +81,15 @@ export default defineConfig4CustomTheme({
             title: 'CHANGELOG 规范',
             path: '/engineering/changelog.md',
           },
+        ],
+      },
+      {
+        title: 'NPM包',
+        children: [
+          { title: 'encode-fe-eslint-config', path: '/npm/eslint.md' },
+          { title: 'encode-fe-stylelint-config', path: '/npm/stylelint.md' },
+          { title: 'encode-fe-commitlint-config', path: '/npm/commitlint.md' },
+          { title: 'encode-fe-markdownlint-config', path: '/npm/markdownlint.md' },
         ],
       },
     ],
