@@ -1,0 +1,33 @@
+{
+  "name": "encode-fe-stylelint-config",
+  "version": "0.0.3",
+  "description": "印客学院 CSS规范",
+  "main": "index.js",
+  "keywords": [
+    "encode",
+    "style",
+    "lint"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "chenghuai",
+  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "license": "ISC",
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+  }
+}

@@ -67,12 +67,6 @@ npm install -g conventional-changelog-cli
 pnpm run changelog
 ```
 
-### 设置`husky`
-
-```bash
-pnpm husky install
-```
-
 ## :email: 联系
 
 -   **印客学院官网**: <http://encodestudio.cn>
