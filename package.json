@@ -4,6 +4,7 @@
   "description": "印客学院--前端编码规范工程化",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
     "build": "lerna run build --stream",
