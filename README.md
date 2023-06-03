@@ -47,6 +47,26 @@
 
 您可以使用[encode-fe-spec-cli](https://www.npmjs.com/package/encode-fe-spec-cli) 方便地为项目接入全部规范。
 
+## 其他
+
+## 测试`markdown config`
+
+全局安装`markdownlint-cli`
+
+```bash
+npm i -g markdownlint-cli
+pnpm run lint
+```
+
+### 生成`CHANGELOG`
+
+参考[conventional-changelog-cli](https://www.npmjs.com/package/conventional-changelog-cli)，全局安装`conventional-changelog-cli`：
+
+```bash
+npm install -g conventional-changelog-cli
+pnpm run changelog
+```
+
 ## :email: 联系
 
 -   **印客学院官网**: <http://encodestudio.cn>

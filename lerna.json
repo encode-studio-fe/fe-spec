@@ -3,11 +3,6 @@
   "npmClient": "pnpm",
   "useWorkspaces": true,
   "command": {
-    "bootstrap": {
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
-    },
     "publish": {
       "npmClient": "npm",
       "message": "chore(release): publish %s",

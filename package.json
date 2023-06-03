@@ -5,14 +5,13 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "init": "pnpm install",
-    "clean-dist": "rimraf 'packages/*/{lib,es,node_modules,dist}'",
-    "clean": "pnpm run clean-dist && rimraf node_modules",
+    "clean": "lerna clean && rm -rf node_modules",
     "build": "lerna run build --stream",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "publish": "lerna publish",
-    "lint": "markdownlint -c .markdownlint.json README.md **/*.md",
+    "lint": "markdownlint README.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [
