@@ -1,4 +1,7 @@
 # encode-fe-markdownlint-config
+
+> 印客学院 文档 规范
+
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
 ## 安装
@@ -15,6 +18,6 @@ npm install encode-fe-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "encode-fe-markdownlint-config"
+	"extends": "encode-fe-markdownlint-config"
 }
 ```
