@@ -18,7 +18,7 @@ npm install encode-fe-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['encode-fe-commitlint-config'],
+	extends: ['encode-fe-commitlint-config'],
 };
 ```
 
@@ -32,18 +32,10 @@ module.exports = {
 npm install husky --save-dev
 ```
 
-然后在 `package.json` 中增加：
+然后执行添加`commit-msg`:
 
-```json
-{
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  }
-}
+```bash
+npx husky add .husky/commit-msg 'npx commitlint --edit $1'
 ```
-
-> 注意：当前使用的`husky`版本为 V3 版本，由于升级带来的 `break change` 过大，有兴趣可以自行升级。
 
 更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。
