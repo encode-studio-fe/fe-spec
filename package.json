@@ -11,6 +11,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
+    "publish": "lerna publish",
     "lint": "markdownlint -c .markdownlint.json README.md **/*.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
