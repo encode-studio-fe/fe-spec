@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "publish": {
+      "npmClient": "npm",
+      "message": "chore(release): publish %s",
+      "registry": "https://registry.npmjs.org"
+    },
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

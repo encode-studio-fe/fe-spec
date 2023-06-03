@@ -1,0 +1,3 @@
+{
+  "extends": "./packages/markdownlint-config/index.json"
+}

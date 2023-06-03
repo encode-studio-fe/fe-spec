@@ -1,0 +1,52 @@
+{
+  "name": "encode-fe-spec",
+  "private": true,
+  "description": "印客学院--前端编码规范工程化",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "init": "pnpm install",
+    "clean-dist": "rimraf 'packages/*/{lib,es,node_modules,dist}'",
+    "clean": "rimraf node_modules && pnpm run clean-dist",
+    "build": "lerna run build --stream",
+    "docs:type": "typedoc",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "lint": "markdownlint -c .markdownlint.json README.md **/*.md",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "keywords": [
+    "encode",
+    "fe spec"
+  ],
+  "author": "chenghuai",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "husky": "^3.1.0",
+    "lerna": "^6.6.2",
+    "pnpm": "^8.6.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.2",
+    "typedoc": "^0.24.7",
+    "typescript": "^5.0.4",
+    "markdownlint": "^0.28.1",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-one-click-copy": "^1.0.2",
+    "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

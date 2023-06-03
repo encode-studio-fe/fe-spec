@@ -1,0 +1,24 @@
+{
+  "name": "encode-fe-markdownlint-config",
+  "version": "0.0.1",
+  "main": "index.json",
+  "description": "印客学院 文档规范",
+  "keywords": [
+    "encode",
+    "markdown",
+    "lint"
+  ],
+  "author": "chenghuai",
+  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}
