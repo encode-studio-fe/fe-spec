@@ -65,7 +65,7 @@ npm install encode-fe-lint -g
 - `-i` `--include <dirpath>` 指定要进行规范扫描的目录
 - `--no-ignore` 忽略 eslint 的 ignore 配置文件和 ignore 规则
 
-> 注 1：事实上，你可以在任意目录执行 `encode-fe-lint scan` `encode-fe-lint` 会根据文件类型、JSON 等特征嗅探项目类型。但我们还是推荐在执行过 `f2elint init` 的项目根目录执行 `encode-fe-lint scan`，以得到最准确的扫描结果。
+> 注 1：事实上，你可以在任意目录执行 `encode-fe-lint scan` `encode-fe-lint` 会根据文件类型、JSON 等特征嗅探项目类型。但我们还是推荐在执行过 `encode-fe-lint init` 的项目根目录执行 `encode-fe-lint scan`，以得到最准确的扫描结果。
 >
 > 注 2: `encode-fe-lint` 会根据项目内有无 eslint 和 stylelint 配置文件判断使用项目的配置文件还是 `encode-fe-lint` 默认配置进行扫描。若使用项目的，在未安装依赖时会帮其安装（执行 npm i）。若使用项目配置扫描失败，则使用默认配置扫描
 
