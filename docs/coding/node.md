@@ -1,18 +1,18 @@
 ---
 title: Node 编码规范
 categories:
-    - 编码规范
+  - 编码规范
 tags:
-    - 编码规范
+  - 编码规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+  name: 澄怀
+  link: https://github.com/encode-studio-fe/fe-spec
 ---
 
 # Node 编码规范
 
 :::tip
-`Node.js` 规约主要包含编码风格、安全规约、最佳实践等几个部分，目的是给业务同学提供研发过程中的实质性规范和指导。其中编码风格 follow [eslint-config-egg](https://github.com/eggjs/eslint-config-egg)。
+`Node.js` 规范主要包含编码风格、安全规范、最佳实践等几个部分，目的是给业务同学提供研发过程中的实质性规范和指导。其中编码风格 follow [eslint-config-egg](https://github.com/eggjs/eslint-config-egg)。
 :::
 
 ## 1. 编码风格
@@ -161,7 +161,7 @@ const err = new Error();
 throw 'an ' + err;
 
 const err = new Error();
-throw `${err}`
+throw `${err}`;
 
 // good
 throw new Error();
@@ -205,7 +205,7 @@ async function test() {
 }
 ```
 
-## 2. 安全规约
+## 2. 安全规范
 
 - 2.1.【强制】在客户端隐藏错误详情。
 
@@ -294,8 +294,7 @@ class Jedi {
 
 const luke = new Jedi();
 
-luke.jump()
-  .setHeight(20);
+luke.jump().setHeight(20);
 ```
 
 ## 参考资料

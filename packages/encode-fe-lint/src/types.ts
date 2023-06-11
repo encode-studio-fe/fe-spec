@@ -33,9 +33,9 @@ export interface Config {
 export interface ScanOptions {
   // lint 运行的工程目录
   cwd: string;
-  // 进行规约扫描的目录
+  // 进行规范扫描的目录
   include: string;
-  // 进行规约扫描的文件列表
+  // 进行规范扫描的文件列表
   files?: string[];
   // 仅报告错误信息
   quiet?: boolean;

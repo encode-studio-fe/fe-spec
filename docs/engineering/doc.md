@@ -1,19 +1,19 @@
 ---
 title: 文档规范
 categories:
-    - 工程规范
+  - 工程规范
 tags:
-    - 工程规范
+  - 工程规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+  name: 澄怀
+  link: https://github.com/encode-studio-fe/fe-spec
 ---
 
 # 文档 规范
 
 ## 前言
 
-在撰写文档的时候如果能遵循一点良好的规约，将能**提升所有人的阅读体验**。
+在撰写文档的时候如果能遵循一点良好的规范，将能**提升所有人的阅读体验**。
 
 在此，文档的含义非常广泛，可以指代任何供人类阅读的文本材料。包括但不限于：`Readme`、`Changelog`、代码注释、上手指南、`Issue` 说明和`PPT` 分享等。
 
@@ -23,9 +23,11 @@ author:
 
   ```markdown
   <!-- bad -->
-  HTML定义网页的结构与内容，CSS定义其格式与样式，而JavaScript则为网页增加可交互性，创作功能丰富的Web应用。
+
+  HTML 定义网页的结构与内容，CSS 定义其格式与样式，而 JavaScript 则为网页增加可交互性，创作功能丰富的 Web 应用。
 
   <!-- good -->
+
   HTML 定义网页的结构与内容，CSS 定义其格式与样式，而 JavaScript 则为网页增加可交互性，创作功能丰富的 Web 应用。
   ```
 
@@ -33,9 +35,11 @@ author:
 
   ```markdown
   <!-- bad -->
-  截至2012年，所有的现代浏览器都完整的支持 ECMAScript5.1，旧版本的浏览器至少支持 ECMAScript3 标准。
+
+  截至 2012 年，所有的现代浏览器都完整的支持 ECMAScript5.1，旧版本的浏览器至少支持 ECMAScript3 标准。
 
   <!-- good -->
+
   截至 2012 年，所有的现代浏览器都完整的支持 ECMAScript 5.1，旧版本的浏览器至少支持 ECMAScript 3 标准。
   ```
 
@@ -43,9 +47,11 @@ author:
 
   ```markdown
   <!-- bad -->
+
   不像 UDP， HTTP 是一个不会静默丢失消息的协议。
 
   <!-- good -->
+
   不像 UDP，HTTP 是一个不会静默丢失消息的协议。
   ```
 
@@ -53,13 +59,13 @@ author:
 
   ```markdown
   <!-- bad -->
+
   Cookie 主要用于以下三个方面：
 
-  1.会话状态管理（如用户登录状态、购物车、游戏分数或其它需要记录的信息）
-  2.个性化设置（如用户自定义设置、主题等）
-  3.浏览器行为跟踪（如跟踪分析用户行为等）
+  1.会话状态管理（如用户登录状态、购物车、游戏分数或其它需要记录的信息） 2.个性化设置（如用户自定义设置、主题等） 3.浏览器行为跟踪（如跟踪分析用户行为等）
 
   <!-- good -->
+
   Cookie 主要用于以下三个方面：
 
   1. 会话状态管理（如用户登录状态、购物车、游戏分数或其它需要记录的信息）
@@ -67,9 +73,11 @@ author:
   3. 浏览器行为跟踪（如跟踪分析用户行为等）
 
   <!-- bad -->
+
   我+你=世界。
 
   <!-- good -->
+
   我 + 你 = 世界。
   ```
 
@@ -77,9 +85,11 @@ author:
 
   ```markdown
   <!-- bad -->
+
   [了解更多](https://developer.mozilla.org/zh-CN/docs/Web) 开发技术相关知识。
 
   <!-- good -->
+
   [了解更多](https://developer.mozilla.org/zh-CN/docs/Web)开发技术相关知识。
   ```
 
@@ -91,15 +101,19 @@ author:
 
   ```markdown
   <!-- bad - 英文句子不建议使用英文引号标示 -->
+
   他写的是 "Hello, world!"。
 
   <!-- bad - 英文句子不建议使用中文单引号标示 -->
+
   他写的是‘Hello, world!’。
 
   <!-- bad - 英文句子内部的标点符号建议保留英文标点符号 -->
+
   他写的是“Hello，world！”。
 
   <!-- good -->
+
   他写的是“Hello, world!”。
   ```
 
@@ -111,11 +125,13 @@ author:
 
   ```markdown
   <!-- bad -->
+
   省略号是 3 个小圆点...
   省略号是 6 个齐线小圆点......
   省略号是 6 个句号。。。。。。
 
   <!-- good -->
+
   省略号是 6 个居中小圆点，占两个全角空格……
   ```
 
@@ -125,9 +141,11 @@ author:
 
   ```markdown
   <!-- bad - 破折号不推荐使用两个中横线 -->
+
   第三方框架和库--用来快速构建网站和应用。
 
   <!-- good -->
+
   第三方框架和库——用来快速构建网站和应用。
   ```
 
@@ -137,18 +155,23 @@ author:
 
   ```markdown
   <!-- bad - 中文句子冒号未使用全角 -->
+
   前端框架: React、Vue、Angular。
 
   <!-- bad - 中文句子内夹用并列的英文单词时使未使用顿号分隔 -->
+
   前端框架：React, Vue, Angular。
 
   <!-- good -->
+
   前端框架：React、Vue、Angular。
 
   <!-- bad - 中文句子括号未使用全角 -->
+
   至少熟悉一门非前端的语言(如 Java、PHP、C、C++、Python、Ruby)，并有实践经验！
 
   <!-- good -->
+
   至少熟悉一门非前端的语言（如 Java、PHP、C、C++、Python、Ruby），并有实践经验！
   ```
 
@@ -156,9 +179,11 @@ author:
 
   ```markdown
   <!-- bad - 英文和数字不应该使用全角 -->
+
   该版本正式名称为 ＥＣＭＡＳｃｒｉｐｔ ２０１５，但通常被称为 ＥＣＭＡＳｃｒｉｐｔ ６ 或者 ＥＳ６。
 
   <!-- good -->
+
   该版本正式名称为 ECMAScript 2015，但通常被称为 ECMAScript 6 或者 ES6。
   ```
 
@@ -166,10 +191,12 @@ author:
 
   ```markdown
   <!-- bad -->
+
   乔布斯那句话是怎么说的？「Stay hungry，stay foolish。」
   推荐你阅读《Hackers＆Painters：Big Ideas from the Computer Age》，非常的有趣。
 
   <!-- good -->
+
   乔布斯那句话是怎么说的？「Stay hungry, stay foolish.」
   推荐你阅读《Hackers & Painters: Big Ideas from the Computer Age》，非常的有趣。
   ```
@@ -180,9 +207,11 @@ author:
 
   ```markdown
   <!-- bad -->
+
   我们需要一位熟悉 Js、h5，至少理解一种框架（如 backbone、angular、RJS 等）的 FED。
 
   <!-- good -->
+
   我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 Backbone.js、AngularJS、React 等）的前端开发者。
   ```
 

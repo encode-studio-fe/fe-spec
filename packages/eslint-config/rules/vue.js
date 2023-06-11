@@ -11,7 +11,7 @@ module.exports = {
     // eslint-disable，eslint-enable，eslint-disable-line，eslint-disable-next-line
     'vue/comment-directive': 'error',
 
-    // 本条是对JS规约 no-unused-vars 的补充，防止变量被错误地标记为未使用
+    // 本条是对JS规范 no-unused-vars 的补充，防止变量被错误地标记为未使用
     'vue/jsx-uses-vars': 'error',
 
     // 组件的 data 必须是一个函数
@@ -40,10 +40,13 @@ module.exports = {
 
     // 禁止出现语法错误
     // @link https://html.spec.whatwg.org/multipage/parsing.html#parse-errors
-    'vue/no-parsing-error': ['error', {
-      'x-invalid-end-tag': false,
-      'invalid-first-character-of-tag-name': false,
-    }],
+    'vue/no-parsing-error': [
+      'error',
+      {
+        'x-invalid-end-tag': false,
+        'invalid-first-character-of-tag-name': false,
+      },
+    ],
 
     // 禁止使用 vue 中的关键字
     'vue/no-reserved-keys': 'error',

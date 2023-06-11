@@ -57,7 +57,7 @@ export default (results: ScanResult[], fix: boolean): void => {
   const pluralize = (word, count) => (count === 1 ? word : `${word}s`);
 
   // 修复日志
-  if (fix) output += chalk.green('代码规约问题自动修复完成，请通过 git diff 确认修复效果 :D\n');
+  if (fix) output += chalk.green('代码规范问题自动修复完成，请通过 git diff 确认修复效果 :D\n');
   if (fix && total > 0) {
     output += chalk.green('ps. 以上显示的是无法被自动修复的问题，需要手动进行修复\n');
   }

@@ -1,12 +1,12 @@
 ---
 title: CHANGELOG 规范
 categories:
-    - 工程规范
+  - 工程规范
 tags:
-    - 工程规范
+  - 工程规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+  name: 澄怀
+  link: https://github.com/encode-studio-fe/fe-spec
 ---
 
 # CHANGELOG 规范
@@ -31,12 +31,14 @@ author:
 
   ```markdown
   <!-- bad -->
+
   changelog.md
   Changelog.md
   ChangeLog.md
   CHANGELOG.MD
 
   <!-- good -->
+
   CHANGELOG.md
   ```
 
@@ -44,10 +46,12 @@ author:
 
   ```markdown
   <!-- bad -->
+
   CHANGELOG.txt
   CHANGELOG.docx
 
   <!-- good -->
+
   CHANGELOG.md
   ```
 
@@ -55,22 +59,22 @@ author:
 
 ## 2. 格式
 
-规约推荐的标准 `Changelog` 格式如下：
+规范推荐的标准 `Changelog` 格式如下：
 
 ```markdown
 # 更新日志
 
-## [<version>](<version-diff-url>) (<date>)
+## [<version>](version-diff-url) (<date>)
 
 ### <type>
 
-* <desc>
-* <desc>
+- <desc>
+- <desc>
 
 ### <type>
 
-* <desc>
-* <desc>
+- <desc>
+- <desc>
 ```
 
 详细规则如下：
@@ -79,11 +83,15 @@ author:
 
   ```markdown
   <!-- bad -->
+
   # 修改日志
+
   # ChangeLog
 
   <!-- good -->
+
   # 更新日志
+
   # Change Log
   ```
 
@@ -91,11 +99,15 @@ author:
 
   ```markdown
   <!-- bad -->
+
   ## 1.0.0
+
   ## 2.0.0
 
   <!-- good -->
+
   ## 2.0.0
+
   ## 1.0.0
   ```
 
@@ -103,20 +115,33 @@ author:
 
   ```markdown
   <!-- bad -->
+
   ## 2.0
+
   ## 1.0.a
+
   ## 0.a.1
+
   ## 0.0.0.1
 
   <!-- good -->
+
   ## 2.0.0
+
   ## 1.0.0
+
   ## 1.0.0-rc.1
+
   ## 1.0.0-beta.2
+
   ## 1.0.0-beta.1
+
   ## 1.0.0-beta
+
   ## 1.0.0-alpha.beta
+
   ## 1.0.0-alpha.1
+
   ## 1.0.0-alpha
   ```
 
@@ -124,9 +149,11 @@ author:
 
   ```markdown
   <!-- bad -->
+
   ## 2.0.0
 
   <!-- good -->
+
   ## [2.0.0](https://version-diff-url)
   ```
 
@@ -134,10 +161,13 @@ author:
 
   ```markdown
   <!-- bad -->
+
   ## [2.0.0](https://version-diff-url) (20200905)
+
   ## [2.0.0](https://version-diff-url) (2020-9-5)
 
   <!-- good -->
+
   ## [2.0.0](https://version-diff-url) (2020-09-05)
   ```
 
@@ -156,43 +186,42 @@ author:
 
 - 2.7.【推荐】更新描述 `desc` 内容需要注意以下几点：
 
-  1. 使用完整的句子。即在标点方面遵循一般的文档格式规约；如果使用英语，则句首大写。
+  1. 使用完整的句子。即在标点方面遵循一般的文档格式规范；如果使用英语，则句首大写。
   2. 时态方面使用一般现在时，不要用过去时态。虽然查看 Changelog 时，Changelog 内容本身都发生在过去，然而使用现在时的时态更简洁明确，并且更易达成一致性。
   3. 句式使用祈使句式。即一般情况不要增加主语。因为在绝大情况下，主语都是作者「我」。
   4. 注明修复的问题。如有提过 Issue，则在句尾增加 Issue 的 ID 和链接。
 
 ## 样本示例
 
-  ```markdown
-  # 更新日志
+```markdown
+# 更新日志
 
-  ## [4.6.0](https://github.com/ant-design/ant-design/compare/4.5.4...4.6.0) (2020-08-23)
+## [4.6.0](https://github.com/ant-design/ant-design/compare/4.5.4...4.6.0) (2020-08-23)
 
-  ### 新增
+### 新增
 
-  - 新增图片组件 Image。
-  - Table 新增 `sticky` 属性以支持固定表头和滚动条。[#25939](https://github.com/ant-design/ant-design/pull/25939)
+- 新增图片组件 Image。
+- Table 新增 `sticky` 属性以支持固定表头和滚动条。[#25939](https://github.com/ant-design/ant-design/pull/25939)
 
-  ### 修复
+### 修复
 
-  - 修复 Pagination 字体相关样式问题。[#26230](https://github.com/ant-design/ant-design/pull/26230)
-  - 修复 Space `children` 有时会重新渲染的问题。[#26219](https://github.com/ant-design/ant-design/pull/26219)
+- 修复 Pagination 字体相关样式问题。[#26230](https://github.com/ant-design/ant-design/pull/26230)
+- 修复 Space `children` 有时会重新渲染的问题。[#26219](https://github.com/ant-design/ant-design/pull/26219)
 
-  ### 优化
+### 优化
 
-  - 用 hooks 重构 Upload。
+- 用 hooks 重构 Upload。
 
-  ## [4.5.4](https://github.com/ant-design/ant-design/compare/4.5.3...4.5.4)(2020-08-12)
+## [4.5.4](https://github.com/ant-design/ant-design/compare/4.5.3...4.5.4)(2020-08-12)
 
-  ### 新增
+### 新增
 
-  - 新增 `@badge-color` Less 变量。
+- 新增 `@badge-color` Less 变量。
 
-  ### 修复
+### 修复
 
-  - 修复 Form.Item 在 `hidden` 时引用 Less 样式时失效的问题。[#26152](https://github.com/ant-design/ant-design/pull/26152)
-
-  ```
+- 修复 Form.Item 在 `hidden` 时引用 Less 样式时失效的问题。[#26152](https://github.com/ant-design/ant-design/pull/26152)
+```
 
 ## 参考资料
 
