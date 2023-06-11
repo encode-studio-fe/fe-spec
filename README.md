@@ -44,9 +44,9 @@
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
 | Eslint 插件                                                       | [ESlint Plugin](https://eslint.org/docs/latest/extend/plugins) | [encode-fe-eslint-plugin](https://www.npmjs.com/package/encode-fe-eslint-plugin)             |
 
-<!-- [encode-fe-spec-cli](https://www.npmjs.com/package/encode-fe-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
+[encode-fe-lint](https://www.npmjs.com/package/encode-fe-lint) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 
-您可以使用[encode-fe-spec-cli](https://www.npmjs.com/package/encode-fe-spec-cli) 方便地为项目接入全部规范。 -->
+您可以使用[encode-fe-lint](https://www.npmjs.com/package/encode-fe-lint) 方便地为项目接入全部规范。
 
 ## 其他
 

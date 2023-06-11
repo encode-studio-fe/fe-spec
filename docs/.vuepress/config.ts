@@ -41,16 +41,8 @@ export default defineConfig4CustomTheme({
         ],
       },
       {
-        text: 'Eslint插件开发',
-        items: [
-          {
-            text: 'no-broad-semantic-versioning',
-            link: '/plugin/no-broad-semantic-versioning.md',
-          },
-          { text: 'no-http-url', link: '/plugin/no-http-url.md' },
-          { text: 'no-js-in-ts-project', link: '/plugin/no-js-in-ts-project.md' },
-          { text: 'no-secret-info', link: '/plugin/no-secret-info.md' },
-        ],
+        text: '脚手架',
+        items: [{ text: 'encode-fe-lint', link: '/cli/encode-fe-lint.md' }],
       },
     ],
     sidebar: [
@@ -107,16 +99,8 @@ export default defineConfig4CustomTheme({
         ],
       },
       {
-        title: 'Eslint插件开发',
-        children: [
-          {
-            title: 'no-broad-semantic-versioning',
-            path: '/plugin/no-broad-semantic-versioning.md',
-          },
-          { title: 'no-http-url', path: '/plugin/no-http-url.md' },
-          { title: 'no-js-in-ts-project', path: '/plugin/no-js-in-ts-project.md' },
-          { title: 'no-secret-info', path: '/plugin/no-secret-info.md' },
-        ],
+        title: '脚手架',
+        children: [{ title: 'encode-fe-lint', path: '/cli/encode-fe-lint.md' }],
       },
     ],
     logo: '/img/logo.png',
