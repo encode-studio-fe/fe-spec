@@ -15,7 +15,7 @@
 
 可以看到这些 `Linter` 和规则包众多且零散，全部安装它们会给项目增加十几个依赖，接入和升级成本都比较高。
 
-F2ELint 收敛屏蔽了这些依赖和配置细节，提供简单的 CLI 和 Node.js API，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
+`encode-fe-lint` 收敛屏蔽了这些依赖和配置细节，提供简单的 CLI 和 Node.js API，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 
 ## CLI 使用
 
@@ -47,8 +47,8 @@ npm install encode-fe-lint -g
   - `.editorconfig`：符合规约的 [editorconfig](https://editorconfig.org/)
   - `.vscode/extensions.json`：写入规约相关的 [VSCode 插件推荐](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)，包括 `ESLint`、`stylelint`、`markdownlint`、`prettier` 等
   - `.vscode/settings.json`：写入规约相关的 [VSCode 设置](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations)，设置 `ESLint` 和 `stylelint` 插件的 `validate` 及**保存时自动运行 fix**，如果选择使用 `Prettier`，会同时将 `prettier-vscode` 插件设置为各前端语言的 defaultFormatter，并配置**保存时自动格式化**
-  - `encode-fe-lint.config.js`：f2elint 包的一些配置，如启用的功能等
-- 配置 git commit 卡口：使用 [husky](https://www.npmjs.com/package/husky) 设置代码提交卡口，在 git commit 时会运行 `f2elint commit-file-scan` 和 `f2elint commit-msg-scan` 分别对提交文件和提交信息进行规约检查。`f2elint commit-file-scan` 默认仅对 error 问题卡口，如果你想对 warn 问题也卡口，可以增加 `--strict` 参数以开启严格模式
+  - `encode-fe-lint.config.js`encode-fe-lint 包的一些配置，如启用的功能等
+- 配置 git commit 卡口：使用 [husky](https://www.npmjs.com/package/husky) 设置代码提交卡口，在 git commit 时会运行 `encode-fe-lint commit-file-scan` 和 `encode-fe-lint commit-msg-scan` 分别对提交文件和提交信息进行规约检查。`encode-fe-lint commit-file-scan` 默认仅对 error 问题卡口，如果你想对 warn 问题也卡口，可以增加 `--strict` 参数以开启严格模式
 
 > 注 1：如果项目已经配置过 ESLint、stylelint 等 Linter，执行 `encode-fe-lint init` 将会提示存在冲突的依赖和配置，并在得到确认后进行覆盖：
 >
@@ -85,15 +85,15 @@ npm install encode-fe-lint --save
 
 config 参数如下：
 
-| 参数               | 类型       | 默认值 | 说明                                                                                                         |
-| ------------------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------ |
-| cwd                | string     | -      | 项目绝对路径                                                                                                 |
-| eslintType         | ESLintType | -      | 语言和框架类型，如果不配置，等同于 f2elint init，控制台会出现选择器，如果配置，控制台就不会出现选择器        |
-| enableESLint       | boolean    | true   | 是否启用 ESLint，如果不配置默认值为 true，即默认启用 ESLint                                                  |
-| enableStylelint    | boolean    | -      | 是否启用 stylelint，如果不配置，等同于 f2elint init，控制台会出现选择器，如果配置，控制台就不会出现选择器    |
-| enableMarkdownlint | boolean    | -      | 是否启用 markdownlint，如果不配置，等同于 f2elint init，控制台会出现选择器，如果配置，控制台就不会出现选择器 |
-| enablePrettier     | boolean    | -      | 是否启用 Prettier                                                                                            |
-| disableNpmInstall  | boolean    | false  | 是否禁用自动在初始化完成后安装依赖                                                                           |
+| 参数               | 类型       | 默认值 | 说明                                                                                                                |
+| ------------------ | ---------- | ------ | ------------------------------------------------------------------------------------------------------------------- |
+| cwd                | string     | -      | 项目绝对路径                                                                                                        |
+| eslintType         | ESLintType | -      | 语言和框架类型，如果不配置，等同于 encode-fe-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器        |
+| enableESLint       | boolean    | true   | 是否启用 ESLint，如果不配置默认值为 true，即默认启用 ESLint                                                         |
+| enableStylelint    | boolean    | -      | 是否启用 stylelint，如果不配置，等同于 encode-fe-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器    |
+| enableMarkdownlint | boolean    | -      | 是否启用 markdownlint，如果不配置，等同于 encode-fe-lint init，控制台会出现选择器，如果配置，控制台就不会出现选择器 |
+| enablePrettier     | boolean    | -      | 是否启用 Prettier                                                                                                   |
+| disableNpmInstall  | boolean    | false  | 是否禁用自动在初始化完成后安装依赖                                                                                  |
 
 ##### ESLintType
 
