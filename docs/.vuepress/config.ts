@@ -37,6 +37,19 @@ export default defineConfig4CustomTheme({
           { text: 'encode-fe-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'encode-fe-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'encode-fe-markdownlint-config', link: '/npm/markdownlint.md' },
+          { text: 'encode-fe-eslint-plugin', link: '/npm/eslint-plugin.md' },
+        ],
+      },
+      {
+        text: 'Eslint插件开发',
+        items: [
+          {
+            text: 'no-broad-semantic-versioning',
+            link: '/plugin/no-broad-semantic-versioning.md',
+          },
+          { text: 'no-http-url', link: '/plugin/no-http-url.md' },
+          { text: 'no-js-in-ts-project', link: '/plugin/no-js-in-ts-project.md' },
+          { text: 'no-secret-info', link: '/plugin/no-secret-info.md' },
         ],
       },
     ],
@@ -90,6 +103,19 @@ export default defineConfig4CustomTheme({
           { title: 'encode-fe-stylelint-config', path: '/npm/stylelint.md' },
           { title: 'encode-fe-commitlint-config', path: '/npm/commitlint.md' },
           { title: 'encode-fe-markdownlint-config', path: '/npm/markdownlint.md' },
+          { title: 'encode-fe-eslint-plugin', path: '/npm/eslint-plugin.md' },
+        ],
+      },
+      {
+        title: 'Eslint插件开发',
+        children: [
+          {
+            title: 'no-broad-semantic-versioning',
+            path: '/plugin/no-broad-semantic-versioning.md',
+          },
+          { title: 'no-http-url', path: '/plugin/no-http-url.md' },
+          { title: 'no-js-in-ts-project', path: '/plugin/no-js-in-ts-project.md' },
+          { title: 'no-secret-info', path: '/plugin/no-secret-info.md' },
         ],
       },
     ],
