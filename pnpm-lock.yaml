@@ -97,16 +97,13 @@ importers:
         specifier: ^3.1.5
         version: 3.1.9
       encode-fe-commitlint-config:
-        specifier: workspace:^
+        specifier: ^1.0.0
         version: link:../commitlint-config
-      encode-fe-eslint-config:
-        specifier: workspace:^
-        version: link:../eslint-config
       encode-fe-markdownlint-config:
-        specifier: workspace:^
+        specifier: ^1.0.0
         version: link:../markdownlint-config
       encode-fe-stylelint-config:
-        specifier: workspace:^
+        specifier: ^1.0.0
         version: link:../stylelint-config
       eslint:
         specifier: ^8.7.0
@@ -114,6 +111,9 @@ importers:
       eslint-config-egg:
         specifier: ^10.0.0
         version: 10.0.0(eslint-import-resolver-typescript@2.5.0)(eslint@8.7.0)(typescript@4.9.5)
+      eslint-config-encode:
+        specifier: ^1.0.0
+        version: link:../eslint-config
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.8.0(eslint@8.7.0)

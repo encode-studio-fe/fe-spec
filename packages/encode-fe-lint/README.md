@@ -8,7 +8,7 @@
 
 | 规范                                                              | Lint 工具                                                  | npm 包                                                                                       |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [eslint-config-encode](https://www.npmjs.com/package/eslint-config-encode)             |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
@@ -37,9 +37,9 @@ npm install encode-fe-lint -g
 
 具体会做以下事情：
 
-- 安装各种依赖：包括 `Linter` 依赖，如 [ESLint](https://eslint.org/)、[stylelint](https://stylelint.io/)、[commitlint](https://commitlint.js.org/#/)、[markdownlint](https://github.com/DavidAnson/markdownlint) 等；配置依赖，如 [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)、[encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)、[encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)、[encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) 等
+- 安装各种依赖：包括 `Linter` 依赖，如 [ESLint](https://eslint.org/)、[stylelint](https://stylelint.io/)、[commitlint](https://commitlint.js.org/#/)、[markdownlint](https://github.com/DavidAnson/markdownlint) 等；配置依赖，如 [eslint-config-encode](https://www.npmjs.com/package/eslint-config-encode)、[encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)、[encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)、[encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) 等
 - 写入各种配置文件，包括：
-  - `.eslintrc.js`、`.eslintignore`：ESLint 配置（继承 `encode-fe-eslint-config`）及黑名单文件
+  - `.eslintrc.js`、`.eslintignore`：ESLint 配置（继承 `eslint-config-encode`）及黑名单文件
   - `.stylelintrc.js`、`.stylelintignore`：stylelint 配置（继承 `encode-fe-stylelint-config`）及黑名单文件
   - `commitlint.config.js`：commitlint 配置（继承 `encode-fe-commitlint-config`）
   - `.markdownlint.json`、`.markdownlintignore`：`markdownlint` 配置及黑名单文件
