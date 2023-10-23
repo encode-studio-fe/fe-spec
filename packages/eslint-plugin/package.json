@@ -1,5 +1,5 @@
 {
-  "name": "encode-fe-eslint-plugin",
+  "name": "eslint-plugin-encode",
   "version": "1.0.0",
   "description": "印客教育自定义eslint插件",
   "scripts": {

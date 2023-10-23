@@ -1,5 +1,5 @@
 ---
-title: encode-fe-eslint-plugin
+title: eslint-plugin-encode
 categories:
   - 工程规范
 tags:
@@ -9,12 +9,12 @@ author:
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
-# encode-fe-eslint-plugin
+# eslint-plugin-encode
 
 除了本包，你需要同时安装 [ESlint](https://eslint.org/)
 
 ```shell
-$ npm install encode-fe-eslint-plugin eslint --save-dev
+$ npm install eslint-plugin-encode eslint --save-dev
 ```
 
 ## 使用
@@ -26,7 +26,7 @@ $ npm install encode-fe-eslint-plugin eslint --save-dev
 module.exports = {
   plugin: ['eslint-config-encode'],
   rules: {
-    'encode-fe-eslint-plugin/no-secret-info': 'error',
+    'eslint-plugin-encode/no-secret-info': 'error',
   },
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: 'plugin:encode-fe-eslint-plugin/recommended',
+  extends: 'plugin:eslint-plugin-encode/recommended',
 };
 ```
 

@@ -37,7 +37,7 @@ export default defineConfig4CustomTheme({
           { text: 'encode-fe-stylelint-config', link: '/npm/stylelint.md' },
           { text: 'encode-fe-commitlint-config', link: '/npm/commitlint.md' },
           { text: 'encode-fe-markdownlint-config', link: '/npm/markdownlint.md' },
-          { text: 'encode-fe-eslint-plugin', link: '/npm/eslint-plugin.md' },
+          { text: 'eslint-plugin-encode', link: '/npm/eslint-plugin.md' },
         ],
       },
       {
@@ -95,7 +95,7 @@ export default defineConfig4CustomTheme({
           { title: 'encode-fe-stylelint-config', path: '/npm/stylelint.md' },
           { title: 'encode-fe-commitlint-config', path: '/npm/commitlint.md' },
           { title: 'encode-fe-markdownlint-config', path: '/npm/markdownlint.md' },
-          { title: 'encode-fe-eslint-plugin', path: '/npm/eslint-plugin.md' },
+          { title: 'eslint-plugin-encode', path: '/npm/eslint-plugin.md' },
         ],
       },
       {
