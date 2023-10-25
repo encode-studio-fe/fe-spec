@@ -1,4 +1,4 @@
-# encode-fe-markdownlint-config
+# markdownlint-config-encode
 
 支持配套的 [stylelint 可共享配置](https://stylelint.io/user-guide/configure)。
 
