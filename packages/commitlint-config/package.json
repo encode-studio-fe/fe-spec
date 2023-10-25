@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-encode",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "main": "index.js",
   "description": "印客学院 Git规范",
   "keywords": [

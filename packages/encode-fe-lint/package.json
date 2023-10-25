@@ -1,6 +1,6 @@
 {
   "name": "encode-fe-lint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "印客教育前端编码规范工程化标准脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -50,9 +50,9 @@
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
+    "commitlint-config-encode": "^1.0.7",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "commitlint-config-encode": "^1.0.0",
     "encode-fe-markdownlint-config": "^1.0.0",
     "encode-fe-stylelint-config": "^1.0.0",
     "eslint": "^8.7.0",
