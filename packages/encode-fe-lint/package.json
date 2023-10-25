@@ -1,6 +1,6 @@
 {
   "name": "encode-fe-lint",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "印客教育前端编码规范工程化标准脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -53,7 +53,6 @@
     "commitlint-config-encode": "^1.0.8",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "stylelint-config-encode": "^1.0.8",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-encode": "^1.0.8",
@@ -80,6 +79,7 @@
     "prettier": "^2.2.1",
     "strip-ansi": "^6.0.0",
     "stylelint": "^14.3.0",
+    "stylelint-config-encode": "^1.0.9",
     "stylelint-scss": "^4.1.0",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
