@@ -7,7 +7,7 @@
 需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
 ```bash
-npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
+npm install stylelint-config-encode stylelint stylelint-scss --save-dev
 ```
 
 ## 使用
@@ -16,6 +16,6 @@ npm install encode-fe-stylelint-config stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "encode-fe-stylelint-config"
+  "extends": "stylelint-config-encode"
 }
 ```

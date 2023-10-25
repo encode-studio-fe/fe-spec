@@ -53,7 +53,7 @@
     "commitlint-config-encode": "^1.0.8",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "encode-fe-stylelint-config": "^1.0.8",
+    "stylelint-config-encode": "^1.0.8",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-encode": "^1.0.8",
