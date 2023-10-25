@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-encode",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "印客教育自定义eslint插件",
   "scripts": {
     "test": "jest",
