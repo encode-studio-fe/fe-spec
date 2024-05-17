@@ -21,7 +21,7 @@ jobs:
                   pnpm run init
                   pnpm run docs:build
               env:
-                  NODE_OPTIONS: '--max_old_space_size=4096'
+                  NODE_OPTIONS: '--max_old_space_size=4096 --openssl-legacy-provider'
 
             - name: Deploy
               uses: JamesIves/github-pages-deploy-action@4.1.3
