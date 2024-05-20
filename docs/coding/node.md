@@ -1,12 +1,12 @@
 ---
 title: Node 编码规范
 categories:
-  - 编码规范
+    - 编码规范
 tags:
-  - 编码规范
+    - 编码规范
 author:
-  name: 澄怀
-  link: https://github.com/encode-studio-fe/fe-spec
+    name: 澄怀
+    link: https://github.com/encode-studio-fe/fe-spec
 ---
 
 # Node 编码规范
@@ -161,7 +161,7 @@ const err = new Error();
 throw 'an ' + err;
 
 const err = new Error();
-throw `${err}`;
+throw `${err}`
 
 // good
 throw new Error();
@@ -294,7 +294,8 @@ class Jedi {
 
 const luke = new Jedi();
 
-luke.jump().setHeight(20);
+luke.jump()
+  .setHeight(20);
 ```
 
 ## 参考资料
